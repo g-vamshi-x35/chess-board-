@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Board</title>
-<style>
-body{display:grid;place-items:center;height:100vh;margin:0;background:#eee} 
-table{border-collapse:collapse;border:3px solid #000} 
-td{width:40px;height:40px} .w{background:#fff}.b{background:#000}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<table>
-<script>
-for(i=0;i<8;i++){
-  document.write('<tr>');
-  for(j=0;j<8;j++) document.write('<td class="'+((i+j)%2?'w':'b')+'"></td>');
-  document.write('</tr>');
-}
-</script>
-</table>
+    <table id="board"></table>
+    <script src="script.js"></script>
 </body>
 </html>
