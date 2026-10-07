@@ -4,23 +4,11 @@ body {
     height: 100vh;
     margin: 0;
     background: #eee;
-    font-family: Arial, sans-serif;
-}
-
-.board-wrap {
-    text-align: center;
-}
-
-#help {
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #333;
 }
 
 table {
     border-collapse: collapse;
     border: 3px solid #000;
-    transition: 0.2s ease;
 }
 
 td {
@@ -30,8 +18,3 @@ td {
 
 .white { background: #fff; }
 .black { background: #000; }
-
-body.f1-active table {
-    box-shadow: 0 0 25px red;
-    transform: scale(1.05);
-}
