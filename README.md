@@ -1,0 +1,1 @@
+black-and-white chess board with a short history section using a single HTML file with embedded CSS
